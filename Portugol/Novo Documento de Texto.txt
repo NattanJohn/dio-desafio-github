@@ -1,0 +1,132 @@
+*Matriz nomes
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro contador = 0
+	cadeia pessoa [3][3]={{"João","SP","1199995241"},{"Maria","Ribeirão Preto","1699998596"},{"Ana","Manaus","9299998574"}}
+	
+
+	faca {
+		escreva ("Nome: " + pessoa[contador][0] + "\n" + "Cidade: " + pessoa[contador][1] +"\n"+ "Numero: "+ pessoa[contador][2] +"\n")
+		contador++
+		
+	}enquanto(contador<=2)
+	}
+}
+
+*Menu(se)
+programa
+{
+	
+	funcao inicio()
+	{
+	escreva(" 1 - Netflix 2 - Amaozon Prime 3 - HBO Max 4 - Youtube 5 - Sair")
+	inteiro menu = 0
+
+	escreva("\n" +"O que você prefere assistir? ")
+	leia(menu)
+//O usuario vai escolher a opçao do menu
+	se(menu==1) {
+		escreva("Entrando na Netflix!!")
+	}
+	se(menu==2) {
+		escreva("Entrando na Amazon Prime!!")
+	}
+	se(menu==3) {
+		escreva("Entrando no HBO Max!!")
+	}
+	se(menu==4) {
+		escreva("Entrando no Youtube!!")
+	}
+	se(menu==5) {
+		escreva("Saindo")
+	}
+	}
+}
+
+*Menu (escolha)
+
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("1 - Netflix 2 - Amazon Prime 3 - HBO Max 4 - Youtube 5 - Sair")
+		inteiro menu=0
+
+		escreva("\n" +"Escolha uma opção: ")
+		leia(menu)
+
+		escolha(menu) {
+		
+		caso 1 :
+			escreva("Abrindo Netflix!!")
+		pare
+
+		caso 2:
+			escreva("Abrindo Amazon Prime!!")
+		pare
+
+		caso 3:
+			escreva("Abrindo HBO Max!!")
+		pare
+
+		caso 4:
+			escreva("Abrindo Youtube!!")
+		pare
+
+		caso 5:
+			escreva("Saindo do menu")
+		pare
+
+		caso contrario:
+			escreva("Você deve escolher as opções 1, 2, 3, 4 ou 5")
+	
+		}
+	}
+}
+
+*soma, divisao, multi, sub
+programa
+{
+	
+	funcao inicio()
+	{
+		real a, b, soma, multi, divisao, menos
+		escreva("Digite o valor de A: ")
+		leia(a)
+		escreva("Digite o valor de B: ")
+		leia(b)
+		soma = a+b
+		multi = a * b
+		divisao = a/b
+		menos= a - b
+		escreva("A soma de: " + a + " + " + b + " = " + " é: " + soma + "\n")
+		escreva("A multiplicação de: " + a + " * " + b + " = " + " é: " + multi + "\n")
+		escreva("A divisão de: " + a + " * " + b + " = " + " é: " + divisao +"\n")
+		escreva("A subtração de: " +a + " - " + b + " = " + "é: " +menos + "\n")
+		
+	}
+}
+
+*valor maior q 10
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero
+		escreva(" Digite um valor: ")
+		leia(numero)
+
+		se (numero <=10) {
+		escreva("O " + numero + " é menor ou igual a 10")
+		}
+		se (numero > 10) {
+			escreva("O " + numero + " é maior que 10")
+		}
+	}
+}

@@ -1,0 +1,17 @@
+DIR: Listar pastas
+CLS: Limpar terminal
+MKDIR: Criar pasta
+CD: Navegar
+Echo: Printa devolta uma frase
+>: Redirecionar
+RMDIR: Excluir pasta
+
+SHA1: Segure hash Algorithm é um conjunto de funções hash critograficas projetadas pela NSA,
+a encriptação gera conjunto de caracteres identificados de 40 digitos.
+
+Commit: Junta Tudo, aponta para uma tree
+GIT INIT: Iniciar repositori git
+GIT ADD: Mover arquivos
+GIT COMMIT: Criar um commit
+
+git add nomeArquivo ou * ou.

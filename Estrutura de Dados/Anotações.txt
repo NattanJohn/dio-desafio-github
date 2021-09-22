@@ -1,0 +1,35 @@
+Estrutura de Dados: é uma estrutura organizada de dados na memoria de um computador ou em qualquer dipositivo de armazenagem, de forma que
+os dados possam ser utilizados de forma correta
+
+Principais Estruturas de Dado
+
+*VetoreS, Matrizes: Podem auxiliar quando ha muitas variaveis do mesmo tipo em um algoritmo
+
+*Registro: é uma estrutura que fornece um formato especcializado para armazenar informações em memoria, o recurso registro nos permite armazenar
+mais de um tipo de dados.
+
+*Lista: A diferença entre lista e arrays é a de que listas possuem tamanho ajustavel, enquanto arrays possuem tamanho fixo
+
+-Listas ligadas: Na estrutura do tipo lista existem os nós onde cada um dos nós conhece o valor que esta sendo armazenado em seu interior, alem
+de conhecer o elemento posterior a ele
+
+-Lista Duplamente Ligada: A diferença é que elas sao biderecionais, nas listas duplamente ligadas, os nós sabem quem é o proximo elemento e tambem
+quem é o elemento anterior, o que permite a navegação reversa.
+
+*Pilha: Uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenados por ver
+
+-LIFO(Last in First Out): Apresente o seguinte critério, o primeiro elemento a ser retirado é o ultimo quem tiver sido inserido
+
+-FIFO(First In First Out): Apresenta o seguinte critério, o primeiro elemento a ser retirado é o primeiro que tiver sido inserido
+
+*Filas: A estrutua do tipo fila admite remoção de elementos e inserção de novos sujeitos á seguinte regra de operação: O elemento removido é o que esta
+na estrutura ha mais tempo, ou seja, o primeiro objeto inserido na fila é tambem o primeiro a ser removido seguindo o conceito FIFO
+
+*Árvore: É uma estrutura de dados que organiza seus elementos, de forma hierarquica, onde existe um elemento que fica no topo da arvore, chamado de raiz
+e existem elementos subordinados a ele. chamados de nós ou folhas
+
+*Tabela Hash: Uma tabela hash, de dispersão ou espalhamento é uma estrutura de dados especiais, que associa chaves de pesquisa á valores. é uma generelização
+da ideia de array, porem utiliza uma função demoninada hashing para espalhar os elementos, fazendo com que os mesmos fiquem de forma não ordenada dentro 
+do array que define a tabela.
+
+*Grafos: São estruturas que permitem programar a relaão entre objetos, os objetos são vertices ou nós do grafo e os relacionamentos são arestas.
